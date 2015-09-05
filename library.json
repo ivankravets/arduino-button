@@ -5,5 +5,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/shaggythesheep/arduino-button"
-  }
+  },
+  "include": [
+    "*/*.cpp",
+    "*/*.h"
+  ],
+  "examples": "*/examples/*/*.ino",
+  "frameworks": "arduino",
+  "platforms": "*"
 }
